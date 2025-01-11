@@ -252,3 +252,40 @@ text-align: center;
 .btn-last:hover , .btnm:hover , .btn-others-money:hover{
     background-color:  rgba(77, 46, 46, 0.473);
 }
+.dry{
+    margin-top: 25px;
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+padding: 24px 48px;
+background-image: url(../assets/quote-bg.png);
+background-position: top left;
+background-repeat: no-repeat;
+}
+.dry1{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.dry2{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.dry3{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
