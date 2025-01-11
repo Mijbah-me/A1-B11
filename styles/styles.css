@@ -4,6 +4,9 @@ main{
     font-family: Fira Sans;
     margin: 0 160px;
 }
+body{
+    background-color: rgb(223, 239, 255);
+}
 .banner{
     width: full;
     height: 560px;
@@ -39,6 +42,10 @@ border:none;
 color: rgb(255, 255, 255);
 font-size: 18px;
 font-weight: 600;
+}
+.btn-primary:hover{
+    border:2px solid black;
+background: rgb(9, 212, 162);
 }
 .banner img{
     width: 474.3px; height: 329.21px;
@@ -139,6 +146,9 @@ text-align: left;
     align-items: center;
     gap: 32px;
     padding: 48px;
+    background-color: white;
+    border-radius: 20px ;
+    margin-bottom: 24px;
 }
 .newsp{
     border-radius: 24px;
@@ -168,4 +178,77 @@ background: rgb(9, 212, 162);
     align-items: center;
     gap: 32px;
     padding: 48px;
+    background-color: white;
+    border-radius: 20px ;
+}
+.donate h3{
+        color: rgb(14, 14, 14);
+font-size: 40px;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+}
+.donate p{
+    width: 1104px;
+height: 48px;
+/* border: 1px solid; */
+margin: 0 auto;
+    color: rgba(14, 14, 14, 0.7);
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 32px;
+}
+.btn-head{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.btnm{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+text-align: center;
+padding: 40px;
+}
+.btn-others-money{
+    width: 1032px;
+    height: 64px;
+    padding: 20px 40px 20px 40px;
+    border: none;
+background: rgb(255, 255, 255);
+color: rgba(14, 14, 14, 0.3);
+font-size: 20px;
+font-weight: 400;
+}
+.btn-others{
+    margin-top: 32px;
+display: flex;
+justify-content: center;
+}
+.btn-last{
+    box-sizing: border-box;
+border-radius: 8px;
+padding: 17px 34px 17px 34px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}
+.btn-done{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.btn-last:hover , .btnm:hover , .btn-others-money:hover{
+    background-color:  rgba(77, 46, 46, 0.473);
 }
