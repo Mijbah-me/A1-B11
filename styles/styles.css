@@ -7,18 +7,24 @@ main{
 body{
     background-color: rgb(223, 239, 255);
 }
+
 .banner{
-    width: full;
+    width: auto;
     height: 560px;
     display: flex;
     justify-content: space-between;
-    gap: 64px;
+    gap: 54px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     padding:117px 59.99px ;
 }
 .banner-contane{
-
+    display: flexbox;
+    justify-content: center;
+    width: 655px;
+    height: 501px;
+    box-sizing: content-box;
+padding-left: 45px;
 }
 
 .banner h5{
@@ -27,8 +33,6 @@ font-size: 24px;
 font-weight: 500;
 }
 .banner h1{
-    width: 622px;
-    height: 201px;
     max-width: 100%;
     color: rgb(14, 14, 14);
 font-size: 56px;
